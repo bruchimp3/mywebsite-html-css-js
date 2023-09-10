@@ -220,13 +220,13 @@ nav{
 @media (min-width: 800px){
     .services{
         display: flex;
-        max-width: 1000px;
+        max-width: 1200px;
         margin-left:  0 auto;
         margin-right:  0 auto;
     }
 
     .service + .service {
         margin-left: 2em;
-
+       
     }
 }
