@@ -189,7 +189,7 @@ nav{
     background-color: var(--clr-dark);
     background-image: url(../img/services-bg.jpg);
     background-size: cover;
-    background-blend-mode: multiply;
+    /* background-blend-mode: multiply; */
     color: var(--clr-light);
     text-align: center;
 }
@@ -218,11 +218,11 @@ nav{
 }
 
 @media (min-width: 800px){
-    .service{
+    .services{
         display: flex;
-        max-width: 100px;
-        margin-left:  auto;
-        margin-right:  auto;
+        max-width: 1000px;
+        margin-left:  0 auto;
+        margin-right:  0 auto;
     }
 
     .service + .service {
